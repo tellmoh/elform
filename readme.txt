@@ -43,6 +43,11 @@ Advanced Elementor form builder widget.
 * Fields Styling Options
 * Button Styling Options
 
+== Screenshots ==
+screenshot-1.png
+screenshot-2.png
+screenshot-3.png
+
 == Installation ==
 
 * Upload plugin files to your plugins folder, or install using WordPress built-in Add New Plugin installer
