@@ -1,0 +1,73 @@
+.efb-field-width-100 {
+	width: 100%;
+}
+
+.efb-field-width-80 {
+	width: 80%;
+}
+
+.efb-field-width-75 {
+	width: 75%;
+}
+
+.efb-field-width-66 {
+	width: 66%;
+}
+
+.efb-field-width-60 {
+	width: 60%;
+}
+
+.efb-field-width-50 {
+	width: 50%;
+}
+
+.efb-field-width-40 {
+	width: 40%;
+}
+
+.efb-field-width-33 {
+	width: 33%;
+}
+
+.efb-field-width-25 {
+	width: 25%;
+}
+
+.efb-field-width-20 {
+	width: 20%;
+}
+
+.elform-form-button {
+	background: #1c1c1c;
+	display: inline-block;
+	color: #fff;
+	padding: 10px 20px;
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+.elform-form-button a {
+	color: #fff;
+}
+
+.elform-form label {
+	display: inline-block;
+	margin-bottom: 10px;
+}
+
+.elform-form input[type='text'],
+.elform-form input[type='email'],
+.elform-form input[type='url'],
+.elform-form input[type='tel'],
+.elform-form input[type='number'],
+.elform-form input[type='date'],
+.elform-form input[type='time'],
+.elform-form input[type='password'] {
+	width: 100%;
+}
+
+.elform-fields {
+	display: inline-block;
+	padding: 5px;
+}
