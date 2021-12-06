@@ -91,7 +91,10 @@ abstract class FormBase extends WidgetBase {
 		$label    = $params['label'] ? $params['label'] : '';
 		$is_mark  = $params['is_mark'] ? $params['is_mark'] : '';
 		$is_label = $params['is_label'] ? $params['is_label'] : '';
-		$items    = explode( ' ', $options );
+
+		if ( is_string( $options ) ) {
+			$items = explode( ' ', $options );
+		}
 
 		if ( $is_label ) {
 			$this->label( $label );
@@ -101,7 +104,7 @@ abstract class FormBase extends WidgetBase {
 			$this->mark();
 		}
 
-		if ( $items ) {
+		if ( isset( $items ) ) {
 			?>
 				<div class="elform-multi-fields">
 			<?php
