@@ -259,6 +259,25 @@ class FormBuilder extends FormBase {
 		);
 
 		$repeater->add_control(
+			'site_key',
+			array(
+				'label'      => __( 'Site Key', 'elform' ),
+				'type'       => Controls_Manager::TEXT,
+				'conditions' => array(
+					'terms' => array(
+						array(
+							'name'     => 'field_type',
+							'operator' => 'in',
+							'value'    => array(
+								'reCAPTCHA',
+							),
+						),
+					),
+				),
+			)
+		);
+
+		$repeater->add_control(
 			'field_placeholder',
 			array(
 				'label'      => __( 'Placeholder', 'elform' ),
@@ -871,7 +890,7 @@ class FormBuilder extends FormBase {
 					}
 
 					case 'reCAPTCHA': {
-						$this->reCAPTCHA();
+						$this->reCAPTCHA( $field['site_key'] );
 
 						break;
 					}

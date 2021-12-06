@@ -211,10 +211,7 @@ abstract class FormBase extends WidgetBase {
 		<?php
 	}
 
-	protected function reCAPTCHA() {
-		$settings = Settings::get_settings();
-		$site_key = $settings['reCAPTCHA'] ? $settings['reCAPTCHA'] : '';
-
+	protected function reCAPTCHA( string $site_key ) {
 		if ( $site_key ) {
 			?>
 				<script src="https://www.google.com/recaptcha/api.js" async defer></script>

@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-12-06T07:26:57+00:00\n"
+"POT-Creation-Date: 2021-12-06T19:19:50+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: elform\n"
@@ -67,12 +67,12 @@ msgid "Type"
 msgstr ""
 
 #: src/widget/form-builder.php:111
-#: src/widget/form-builder.php:603
+#: src/widget/form-builder.php:622
 msgid "Text"
 msgstr ""
 
 #: src/widget/form-builder.php:112
-#: src/widget/form-builder.php:715
+#: src/widget/form-builder.php:734
 msgid "Email"
 msgstr ""
 
@@ -162,194 +162,198 @@ msgid "Multiple Files"
 msgstr ""
 
 #: src/widget/form-builder.php:244
-#: src/widget/form-builder.php:544
+#: src/widget/form-builder.php:563
 msgid "Label"
 msgstr ""
 
 #: src/widget/form-builder.php:264
+msgid "Site Key"
+msgstr ""
+
+#: src/widget/form-builder.php:283
 msgid "Placeholder"
 msgstr ""
 
-#: src/widget/form-builder.php:291
+#: src/widget/form-builder.php:310
 msgid "Default value"
 msgstr ""
 
-#: src/widget/form-builder.php:315
+#: src/widget/form-builder.php:334
 msgid "Name"
 msgstr ""
 
-#: src/widget/form-builder.php:317
+#: src/widget/form-builder.php:336
 msgid "Name is required. It is used to send the data to your email."
 msgstr ""
 
-#: src/widget/form-builder.php:355
+#: src/widget/form-builder.php:374
 msgid "Column Width"
 msgstr ""
 
-#: src/widget/form-builder.php:359
+#: src/widget/form-builder.php:378
 msgid "20%"
 msgstr ""
 
-#: src/widget/form-builder.php:360
+#: src/widget/form-builder.php:379
 msgid "25%"
 msgstr ""
 
-#: src/widget/form-builder.php:361
+#: src/widget/form-builder.php:380
 msgid "33%"
 msgstr ""
 
-#: src/widget/form-builder.php:362
+#: src/widget/form-builder.php:381
 msgid "40%"
 msgstr ""
 
-#: src/widget/form-builder.php:363
+#: src/widget/form-builder.php:382
 msgid "50%"
 msgstr ""
 
-#: src/widget/form-builder.php:364
+#: src/widget/form-builder.php:383
 msgid "60%"
 msgstr ""
 
-#: src/widget/form-builder.php:365
+#: src/widget/form-builder.php:384
 msgid "66%"
 msgstr ""
 
-#: src/widget/form-builder.php:366
+#: src/widget/form-builder.php:385
 msgid "75%"
 msgstr ""
 
-#: src/widget/form-builder.php:367
+#: src/widget/form-builder.php:386
 msgid "80%"
 msgstr ""
 
-#: src/widget/form-builder.php:368
+#: src/widget/form-builder.php:387
 msgid "100%"
 msgstr ""
 
-#: src/widget/form-builder.php:412
+#: src/widget/form-builder.php:431
 msgid "Required"
 msgstr ""
 
-#: src/widget/form-builder.php:414
-#: src/widget/form-builder.php:692
+#: src/widget/form-builder.php:433
+#: src/widget/form-builder.php:711
 msgid "Yes"
 msgstr ""
 
-#: src/widget/form-builder.php:415
-#: src/widget/form-builder.php:693
+#: src/widget/form-builder.php:434
+#: src/widget/form-builder.php:712
 msgid "No"
 msgstr ""
 
-#: src/widget/form-builder.php:463
+#: src/widget/form-builder.php:482
 msgid "Custom Class"
 msgstr ""
 
-#: src/widget/form-builder.php:487
+#: src/widget/form-builder.php:506
 msgid "Custom ID"
 msgstr ""
 
-#: src/widget/form-builder.php:510
-#: src/widget/form-builder.php:763
+#: src/widget/form-builder.php:529
+#: src/widget/form-builder.php:782
 msgid "Fields"
 msgstr ""
 
-#: src/widget/form-builder.php:547
-#: src/widget/form-builder.php:558
+#: src/widget/form-builder.php:566
+#: src/widget/form-builder.php:577
 msgid "Show"
 msgstr ""
 
-#: src/widget/form-builder.php:548
-#: src/widget/form-builder.php:559
+#: src/widget/form-builder.php:567
+#: src/widget/form-builder.php:578
 msgid "Hide"
 msgstr ""
 
-#: src/widget/form-builder.php:556
+#: src/widget/form-builder.php:575
 msgid "Required Mark"
 msgstr ""
 
-#: src/widget/form-builder.php:569
-#: src/widget/form-builder.php:782
+#: src/widget/form-builder.php:588
+#: src/widget/form-builder.php:801
 msgid "Button"
 msgstr ""
 
-#: src/widget/form-builder.php:576
+#: src/widget/form-builder.php:595
 msgid "Alignment"
 msgstr ""
 
-#: src/widget/form-builder.php:580
-#: src/widget/form-builder.php:628
+#: src/widget/form-builder.php:599
+#: src/widget/form-builder.php:647
 msgid "Left"
 msgstr ""
 
-#: src/widget/form-builder.php:584
+#: src/widget/form-builder.php:603
 msgid "Center"
 msgstr ""
 
-#: src/widget/form-builder.php:588
-#: src/widget/form-builder.php:632
+#: src/widget/form-builder.php:607
+#: src/widget/form-builder.php:651
 msgid "Right"
 msgstr ""
 
-#: src/widget/form-builder.php:612
+#: src/widget/form-builder.php:631
 msgid "Icon"
 msgstr ""
 
-#: src/widget/form-builder.php:624
+#: src/widget/form-builder.php:643
 msgid "Icon Position"
 msgstr ""
 
-#: src/widget/form-builder.php:644
+#: src/widget/form-builder.php:663
 msgid "Button ID"
 msgstr ""
 
-#: src/widget/form-builder.php:654
+#: src/widget/form-builder.php:673
 msgid "Messages"
 msgstr ""
 
-#: src/widget/form-builder.php:661
+#: src/widget/form-builder.php:680
 msgid "Success Message"
 msgstr ""
 
-#: src/widget/form-builder.php:663
+#: src/widget/form-builder.php:682
 msgid "Your message has been sent"
 msgstr ""
 
-#: src/widget/form-builder.php:671
+#: src/widget/form-builder.php:690
 msgid "Error Message"
 msgstr ""
 
-#: src/widget/form-builder.php:673
+#: src/widget/form-builder.php:692
 msgid "Can't send the email"
 msgstr ""
 
-#: src/widget/form-builder.php:683
+#: src/widget/form-builder.php:702
 msgid "Redirect"
 msgstr ""
 
-#: src/widget/form-builder.php:690
+#: src/widget/form-builder.php:709
 msgid "Redirect to another URL"
 msgstr ""
 
-#: src/widget/form-builder.php:701
+#: src/widget/form-builder.php:720
 msgid "Redirect To"
 msgstr ""
 
-#: src/widget/form-builder.php:703
+#: src/widget/form-builder.php:722
 msgid "https://your-link.com"
 msgstr ""
 
-#: src/widget/form-builder.php:722
+#: src/widget/form-builder.php:741
 msgid "To"
 msgstr ""
 
-#: src/widget/form-builder.php:730
+#: src/widget/form-builder.php:749
 msgid "Subject"
 msgstr ""
 
-#: src/widget/form-builder.php:745
+#: src/widget/form-builder.php:764
 msgid "From Email"
 msgstr ""
 
-#: src/widget/form-builder.php:753
+#: src/widget/form-builder.php:772
 msgid "From Name"
 msgstr ""
