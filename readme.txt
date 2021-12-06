@@ -11,7 +11,39 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Advanced Elementor form builder widget.
 
+= Features =
+
+* Text
+* Email
+* Textarea
+* URL
+* Tel
+* Radio
+* Select
+* Checkbox
+* Number
+* Date
+* Time
+* File
+* Password
+* HTML
+* Hidden
+* reCAPTCHA
+* Custom Class
+* Custom ID
+* Column Width
+* Default value
+* Placeholder
+* Duplicate Fields
+* Custom Button Icon
+* Icon Position
+* Success Message
+* Error Message
+* Redirect
+* Fields Styling Options
+* Button Styling Options
+
 == Installation ==
 
-* Upload plugin files to your plugins folder, or install using WordPress built-in Add New Plugin installer;
+* Upload plugin files to your plugins folder, or install using WordPress built-in Add New Plugin installer
 * Activate the plugin
