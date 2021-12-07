@@ -150,8 +150,7 @@ class FormBuilder extends FormBase {
 			array(
 				'label'       => __( 'Options', 'elform' ),
 				'type'        => Controls_Manager::TEXTAREA,
-				'description' => __( 'Enter each option with space.', 'elform' ),
-				'placeholder' => __( 'one two three', 'elform' ),
+				'description' => __( 'Enter each option in a new line.', 'elform' ),
 				'conditions'  => array(
 					'terms' => array(
 						array(

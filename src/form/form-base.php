@@ -84,7 +84,7 @@ abstract class FormBase extends WidgetBase {
 
 	protected function multi( array $params ) {
 
-		$options  = $params['options'] ? $params['options'] : array();
+		$options  = $params['options'] ? $params['options'] : '';
 		$required = $params['required'] ? 'required' : '';
 		$name     = $params['name'] ? $params['name'] : '';
 		$type     = $params['type'] ? $params['type'] : '';
@@ -92,9 +92,7 @@ abstract class FormBase extends WidgetBase {
 		$is_mark  = $params['is_mark'] ? $params['is_mark'] : '';
 		$is_label = $params['is_label'] ? $params['is_label'] : '';
 
-		if ( is_string( $options ) ) {
-			$items = explode( ' ', $options );
-		}
+		$items = preg_split( '/\r\n|\r|\n/', $options );
 
 		if ( $is_label ) {
 			$this->label( $label );
