@@ -129,25 +129,23 @@ abstract class FormBase extends WidgetBase {
 			?>
 			<?php
 			foreach ( $items as $item ) {
-				$option = esc_attr( $item );
-
 				if ( $type === 'radio' ) {
 					?>
-								<input type="radio" name="<?php echo esc_attr( $name ); ?>" value="<?php echo $option; ?>">
-								<span><?php echo $option; ?></span>
+								<input type="radio" name="<?php esc_attr_e( $name ); ?>" value="<?php esc_attr_e( $item ); ?>">
+								<span><?php esc_attr_e( $item ); ?></span>
 						 <?php
 				}
 
 				if ( $type === 'checkbox' ) {
 					?>
-								<span><?php echo $option; ?></span>
-								<input type="checkbox" name="<?php echo esc_attr( $name ); ?>" value="<?php echo $option; ?>">
+								<span><?php esc_attr_e( $item ); ?></span>
+								<input type="checkbox" name="<?php esc_attr_e( $name ); ?>" value="<?php esc_attr_e( $item ); ?>">
 						<?php
 				}
 
 				if ( $type === 'select' ) {
 					?>
-								<option value="<?php echo $option; ?>"><?php echo $option; ?></option>
+								<option value="<?php esc_attr_e( $item ); ?>"><?php esc_attr_e( $item ); ?></option>
 					  <?php
 				}
 			}
@@ -187,7 +185,7 @@ abstract class FormBase extends WidgetBase {
 		<?php
 
 		if ( $html ) {
-			echo do_shortcode( $html );
+			echo wp_kses_post( do_shortcode( $html ) );
 		}
 
 		?>
